@@ -4,14 +4,14 @@
 db.produtos.find(
   {
     $and: [
-      { nome: { $ne: 'Big Mac'}},
-      { nome: { $ne: 'McChicken'}},
-    ]
+      { nome: { $ne: "Big Mac" } },
+      { nome: { $ne: "McChicken" } },
+    ],
   },
   {
     _id: false,
     nome: true,
     vendidos: true,
     curtidas: true,
-  }
+  },
 );
