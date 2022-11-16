@@ -9,8 +9,6 @@ Para acessar deve-se entrar na pasta **/challenges** onde estão todos os arquiv
 
 ## Query referentes ao banco de dados MongoDB
 
----
-
 desafio1 - Retorne a quantidade de documentos inseridos na coleção `produtos`.
 
 ---
